@@ -6,7 +6,7 @@ export default {
     component: myButton,
    
     argTypes: {
-      backgroundColor: { control: 'colo' },
+      backgroundColor: { control: 'color' },
     },
   };
   
@@ -27,5 +27,5 @@ Large.args = {
 
 export const Small = Template.bind({});
 Small.args = {
-  size: 'small'
+  size: 'small',
 };
