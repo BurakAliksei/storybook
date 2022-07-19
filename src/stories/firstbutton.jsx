@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './first button.css';
 
-export const myButton = ({ primary, backgroundColor, size, label, ...props }) => {
+export const myButton = ({ primary, backgroundColor, size, ...props }) => {
     const mode = primary ? 'my-button--primary' : 'my-button--secondary';
     return (
       <button
